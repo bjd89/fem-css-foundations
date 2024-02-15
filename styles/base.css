@@ -1,6 +1,7 @@
 :root {
   --color-primary: #ff7b54;
   --color-text-on-primary: #ffffff;
+  --color-text-on-secondary: #000000;
   --color-button-border: var(--color-text-on-primary);
   --color-button-primary-bg: var(--color-text-on-primary);
   --color-button-primary-text: var(--color-primary);
@@ -29,7 +30,8 @@ body {
   color: var(--color-primary);
 }
 
-p {
+p,
+h2 {
   margin: 0;
 }
 
